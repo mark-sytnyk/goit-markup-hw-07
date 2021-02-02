@@ -1,0 +1,19 @@
+.footer__info {
+    margin-right: 70px;
+  }
+
+  .footer__info-addres {
+    margin: 0 0 9px;
+    color: $primery-white-color;
+    font-style: normal;
+  }
+  .footer__info-contacts {
+    display: block;
+    margin: 0 0 9px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    
+    &:last-child {
+        margin: 0;
+    }
+  }

@@ -1,0 +1,16 @@
+.team-list {
+    @include list(margin);
+    display: flex;
+  }
+.teams {
+    background-color: #f5f4fa;
+    padding: 94px 0;
+  }
+.teams-title {
+    margin: 0 0 50px;
+    color: $title-text-color;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
