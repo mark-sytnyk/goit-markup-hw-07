@@ -5,6 +5,7 @@
 .navigation {
   @include list(margin);
     display: flex;
+    margin: 0;
   }
 .navigation__item {
     position: relative;
